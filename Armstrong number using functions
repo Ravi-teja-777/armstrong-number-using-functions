@@ -1,0 +1,19 @@
+def armstrong():
+    while True:
+        i = int(input("Enter a number : "))
+        a=i
+        m=str(i)
+        l=len(m)
+        j=0
+        while i!=0:
+            k =i%10
+            j=j+pow(k,l)
+            i=i//10
+            
+        if a==j:
+            print(j,"is aromstrong number ")
+        else:
+            print(j,"is aromstrong number ")
+            
+            
+armstrong()
